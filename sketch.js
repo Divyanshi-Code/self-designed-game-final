@@ -25,7 +25,7 @@ ground = createSprite((width*10)/2,height,width*10,10);
 coinGroup = new Group();
 rockGroup = new Group();
 
-player.debug = true;
+player.debug = false;
 player.setCollider("rectangle",0,0,1,player.height-40)
 }
 
@@ -145,7 +145,7 @@ rock.setCollider("rectangle",0,0,10,50)
 rock.depth = player.depth
 player.depth += 1;
 rockGroup.add(rock)
-rock.debug = true;
+rock.debug = false;
 
   }
 }
